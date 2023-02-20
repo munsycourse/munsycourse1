@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #363535;
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: blanchedalmond;
+}
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    #bgvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    #bgvideo{
+        width: auto;
+        height: 100%;
+    }
+}
+#mintpreview {
+    height: 300px;
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.box1 {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+.box2 {
+    display: flex;
+    position: absolute;
+    top: 88%;
+    right: 47%;
+}
+
+.button1 {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 10px 20px 10px 20px;
+    color: #363535;
+    border: none;
+    border-radius: 0px;
+    background: rgb(138, 115, 115);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button1:hover {
+    background-color: rgb(184, 0, 0);
+    color: rgb(31, 26, 26);
+}
+
+.overlay1 {
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(138, 115, 115);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.overlay1:target {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+}
+
+.popup1 {
+    border: none;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    position: relative;
+    background: #363535;
+    color: rgb(138, 115, 115);
+    z-index: 2;
+}
+
+.popup1 h2 {
+    color: rgb(138, 115, 115);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.popup1 .close1 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transition: all 100ms;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(138, 115, 115);
+}
+
+.popup1 .close1:hover {
+    color: red;
+}
+.button2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 10px 20px 10px 20px;
+    color: #363535;
+    border: none;
+    border-radius: 0px;
+    background: rgb(138, 115, 115);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button2:hover {
+    background-color: rgb(184, 0, 0);
+    color: rgb(31, 26, 26);
+}
+
+.overlay2 {
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(138, 115, 115);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.overlay2:target {
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+}
+
+.popup2 {
+    border: none;
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+    position: relative;
+    background: #363535;
+    color: rgb(138, 115, 115);
+    z-index: 2;
+}
+
+.popup2 h2 {
+    color: rgb(138, 115, 115);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.popup2 .close2 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transition: all 100ms;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(138, 115, 115);
+}
+
+.popup2 .close1:hover {
+    color: red;
+}
