@@ -5,3 +5,6 @@ We're cookin' up HTML, CSS, JS, and API’s in an action packed fifteen-hour cou
 But that's not all! Were working on weekly guest appearances from Solana devs who'll be ready to answer any burning questions and share their wisdom with students in private AMAs.  We want to empower Solana's diverse community to create ground breaking programs and make this world a whole lot cooler. Students that nail their final project will snag a wicked 'build-or bear' NFT as a shiny resume piece to show off your HTML/CSS/JS/APIs expertise! 
 We're all about supporting the community, and we need your help to make this dream come true. With your support, we can spread the word about the contest, compensate the clutch course moderators, and create a prize pool for our hardworking students. 
 So let's jam together! Investing in Solana College means giving people the power to transform their lives, learn some rad new skills, and build tools that'll shake up their communities. Join us in making Solana the go-to blockchain for everyone, and let's create an inclusive, diverse, and downright amazing crypto community. Thanks for checking us out, let's rock this thing! 
+
+
+If you would like to view the first draft of lessons, the playlist is available here: https://www.youtube.com/watch?v=Q3iiOThlCfw&list=PLoRRCJUe3xTzYooSdSM4aI5u8F2Jc_R5r
